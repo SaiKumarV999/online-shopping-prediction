@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='kumar.css')}}" >
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel='icon' href="{{url_for('static',filename='skicon.ico')}}" type='image/x-icon'/ >    
+
+</head>
+<body Bgcolor="yellow">
+    
+    <center><div class="head">
+        <h1 >ONLINE SHOPPING PREDICTION </h1>
+    </div><hr>
+    <br>
+    <div class="bg">
+       
+    
+    </div><img src="{{url_for('static',filename='saikumar.png')}}"  width="1600px" height="1000px" border="5px" align="center">
+    <br>
+    <div class="top">
+        <font color="red"><h2>The increasing popularity of online shopping has led to the emergence of new economic activities. </h2><br>
+
+           <h2> To succeed in the highly competitive e-commerce environment, it is vital to understand consumer intention.</h2><br>
+            
+           <h2>But there is value in considering predictions. It can solidify why one has invested, point to factors that may have been overlooked, or even cause one to revise their expectations.</h2><br>
+        </font>
+    </div>
+    <div class="SK"  >
+        
+            
+
+           
+
+    <div class="container">
+        
+        <h1 class='header' ><span class="header_font">Online Shopping Prediction</span>
+            
+        </h1>
+    </div>
+
+
+    
+        <h4>Shopping Prediction</h4>
+        
+    
+<center>
+    <div>
+        <font color="red">
+        <form action="/predict" method="POST">
+            <br>
+            <label for="month"><b>MONTH :</b></label><br>
+            <input type="number" placeholder="enter a Month" name="month"  required min="1" max="12">
+            </br> 
+            <br>
+            <label for="week"><b>WEEKEND :</b></label><br>
+            <select name="week" id="week" >
+
+                <option value="1">1</option>
+                <option value="0">0</option>
+            </select>
+            </br> 
+            <br>      
+            <label for="vtype"><b>VISITOR TYPE :</b></label><br>
+                
+            <select name="vtype" id="vtype">
+                <option value="1">1</option>
+                <option value="0">0</option>
+                            
+            </select>
+            </br>
+            <br>
+            <label for="Bouncerate"><b>BOUNCE RATE :</b></label><br>
+                
+            <input type="" placeholder="percentage of visitors"name="Bouncerate" required>
+             </br>
+             <br>       
+            <label for="exitrate"><b>EXIT RATE :</b></label><br>
+                    
+            <input type="number" placeholder="exit rate"name="exitrate" required>
+            </br>
+            <br>      
+            
+            
+            <input type="submit" value="PREDICT">
+        </form>
+        </font>
+    </center></div>
+    
+    <font color="blue"><h2 class="con">CONNECT WITH ME ON:</h2></font>
+        <div class="tooltip">
+            <span class="tiptext">facebook</span> <a href="https://www.facebook.com/Vankayalapati Sai Kumar"><i class="fa fa-facebook fa-2x sym1" aria-hidden="true"></i></a></div>
+        <div class="tooltip">
+        <span class="tiptext">Instagram</span>  <a href="https://www.instagram.com/sai_kumar_chowdaryv/"><i class="fa fa-instagram fa-2x sym2" aria-hidden="true"></i></a></div>
+        <div class="tooltip">
+        <span class="tiptext">Whatsapp</span> <a href="https://wa.me/+916301886265?text=Hi"><i class="fa fa-whatsapp fa-2x sym3" aria-hidden="true"></i></a></div>
+        <div class="tooltip">
+       
+         <span class="tiptext">Youtube</span> <a href="https://www.youtube.com/channel/UC4T-aawNNmfMl7zebf-w7sg"><i class="fa fa-youtube-play fa-2x sym5" aria-hidden="true"></i></a></div>
+      </div><br><br>
+      
+     <center> <font color="blue"><p >Thank You For Visiting</p></font><br>
+    </center>
+     <br>
+     <center> <font color="green"><p > &copy; 2022 All Rights Reserved</p></font></center>
+      <br>
+      <hr style="border-color:white;">
+      <hr style="border-color:white;">
+      <br>
+      
+
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel='icon' href="{{url_for('static',filename='skicon.ico')}}" type='image/x-icon'/ >  
+    <link rel="stylesheet" href="{{url_for('static',filename='sai.css')}}" >   
+</head>
+<body Bgcolor="yellow">
+    <div class="head">
+        <h1 >ONLINE SHOPPING PREDICTION </h1>
+    </div><hr>
+    <br>
+<marquee> THESE PRICES ARE JUST PREDICTIONS NOT REAL  SHOPPING INTENSION VALUE IN THE MARKET.</marquee><br><br>
+<img src="{{url_for('static',filename='shopping4.png')}}"  width="1500px" height="400px" border="5px" align="center">
+    <div class="out">
+
+       <center>
+        <h1>{% if month %}{{month}} {% endif %} </h1>
+        <h1>{% if week %}{{week}} {% endif %} </h1><br>
+       <h1>{% if prediction %}{{prediction}} {% endif %} </h1><br>
+       <h1>{% if vtype %}{{vtype}} {% endif %} </h1><br>
+       </center>
+       <center>
+        <div class="container">
+            <form action="{{ url_for('predict')}}" method="post">
+            <p><b>The Predicted shopping Revenue is :</b></p>
+            {% print(prediction)%}
+            </div></center>
+            </form><br><br>
+    </h1>
+    </div>
+    
+        <form action="/" method="POST">
+          </form>  
+         
+    <br>
+      <hr style="border-color:white;">
+      <hr style="border-color:white;">
+      <br>
+    
+</body>
+</html>
