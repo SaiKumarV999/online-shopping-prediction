@@ -1,4 +1,5 @@
-# online-shopping-prediction![Screenshot 2022-06-02 145347]EXPLANING ABOUT DATA SET
+# online-shopping-prediction
+EXPLANING ABOUT DATA SET
 ![Screenshot 2022-06-14 085051](https://user-images.githubusercontent.com/105070412/173486805-b89e0446-8a3e-44fc-805a-71842aaf517e.png)
 ONLINE SHOPPING PREDICTION
 ![Screenshot 2022-06-02 145347](https://user-images.githubusercontent.com/105070412/173487787-86c7a050-779a-48a4-bab5-ed73ec2bc966.png)
